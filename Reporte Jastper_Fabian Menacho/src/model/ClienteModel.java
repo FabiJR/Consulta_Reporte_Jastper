@@ -13,7 +13,7 @@ import util.MySqlDBConexion;
 
 public class ClienteModel {
 	
-	public List<Cliente> consultaClub(String idCliente){
+	public List<Cliente> consultaCliente(String idCliente){
 		ArrayList<Cliente> data = new ArrayList<Cliente>();
 		Connection con = null;
 		PreparedStatement pstm = null;
